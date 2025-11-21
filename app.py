@@ -5,7 +5,7 @@ from flask import Flask, render_template_string, request
 import google.generativeai as genai
 
 # My WORKING KEY (already tested and working)
-genai.configure(api_key="AIzaSyBG44MpH7ETiEAOsPi0F5xj4MI7YbkApeo")
+genai.configure(api_key="AIzaSyDdeKqzg3y152OOYoVKrwgetgAv_osLP3w")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 app = Flask(__name__)
