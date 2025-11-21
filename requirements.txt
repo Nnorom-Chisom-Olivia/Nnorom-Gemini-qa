@@ -119,7 +119,6 @@ webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
 Werkzeug==3.1.3
---only-binary=:all:
---no-deps
+
 
 
